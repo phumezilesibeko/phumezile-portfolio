@@ -8,7 +8,9 @@ defineProps({
 <template>
   <component
     :is="featured ? 'a' : 'article'"
-    :href="featured ? '#projects' : undefined"
+    :href="featured ? project.link : undefined"
+    :target="featured ? '_blank' : undefined"
+    :rel="featured ? 'noopener noreferrer' : undefined"
     class="tile"
     :class="featured ? 'project-tile feature-project' : 'portfolio-project'"
     :aria-label="project.title"
@@ -50,9 +52,9 @@ defineProps({
         <h3>{{ project.title }}</h3>
         <p>{{ project.description }}</p>
       </div>
-      <span v-if="featured" class="project-link">Live Site <b>↗</b></span>
+      <span v-if="featured" class="project-link">GitHub <b>↗</b></span>
       <a v-else class="button button-outline" :href="project.link" target="_blank" rel="noopener noreferrer">
-        Live Site <span>↗</span>
+        GitHub <span>↗</span>
       </a>
     </div>
   </component>

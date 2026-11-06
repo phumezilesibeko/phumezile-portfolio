@@ -8,25 +8,25 @@ export const projects = [
     id: 'artisan-hub', number: '01', category: 'COMMERCE', type: 'E-COMMERCE · VUE.JS',
     title: 'Artisan Hub — Storefront',
     description: 'An online store for artwork and crafts, made for easy browsing and joyful discovery.',
-    visualClass: 'art-visual', image: artisanHome, imageAlt: 'Artisan Hub storefront screenshot', featured: true, link: '#contact'
+    visualClass: 'art-visual', image: artisanHome, imageAlt: 'Artisan Hub storefront screenshot', featured: true, link: 'https://github.com/Khaalid-hattas/Group6-E-COMMERCE'
   },
   {
     id: 'artisan-hub-artwork', number: '02', category: 'ARTWORK', type: 'E-COMMERCE · VUE.JS',
     title: 'Artisan Hub — Artwork Gallery',
     description: 'A closer look at the artwork and handcrafted pieces available in the store.',
-    visualClass: 'art-visual', image: artisanGallery, imageAlt: 'Artisan Hub artwork gallery screenshot', featured: false, link: '#contact'
+    visualClass: 'art-visual', image: artisanGallery, imageAlt: 'Artisan Hub artwork gallery screenshot', featured: false, link: 'https://github.com/Khaalid-hattas/Group6-E-COMMERCE'
   },
   {
     id: 'hr-system', number: '03', category: 'PEOPLE', type: 'HR MANAGEMENT · PHP',
     title: 'HR System — Dashboard',
     description: 'A people-first tool for bringing day-to-day HR tasks into one place.',
-    visualClass: 'people-visual', image: hrDashboard, imageAlt: 'Human Resource Management System dashboard screenshot', featured: true, link: '#contact'
+    visualClass: 'people-visual', image: hrDashboard, imageAlt: 'Human Resource Management System dashboard screenshot', featured: true, link: 'https://github.com/purritygwabeni43-tech/Modern-Tech-Solutions'
   },
   {
     id: 'hr-system-team', number: '04', category: 'TEAM', type: 'HR MANAGEMENT · PHP',
     title: 'HR System — Team Management',
     description: 'An additional view of the employee and team management experience.',
-    visualClass: 'people-visual', image: hrTeam, imageAlt: 'Human Resource Management System team view screenshot', featured: false, link: '#contact'
+    visualClass: 'people-visual', image: hrTeam, imageAlt: 'Human Resource Management System team view screenshot', featured: false, link: 'https://github.com/purritygwabeni43-tech/Modern-Tech-Solutions'
   }
 ];
 
